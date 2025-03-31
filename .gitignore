@@ -172,3 +172,39 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Model files and cache
+*.h5
+*.pkl
+*.pth
+*.onnx
+*.tflite
+*.pb
+models/**/cache/
+*.bin
+
+# IDE and Editor files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local development settings
+config.local.yaml
+config.local.yml
+config.local.json
+.env.local
+
+# Logs and temporary files
+logs/
+tmp/
+*.tmp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

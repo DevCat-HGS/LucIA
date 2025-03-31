@@ -1,0 +1,18 @@
+# API Framework
+fastapi>=0.100.0
+uvicorn>=0.22.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# NLP Libraries
+transformers>=4.30.0
+torch>=2.0.0
+sentencepiece>=0.1.99
+accelerate>=0.20.3
+datasets>=2.12.0
+nltk>=3.8.1
+spacy>=3.5.0
+
+# Utilities
+loguru>=0.7.0
+tqdm>=4.65.0
